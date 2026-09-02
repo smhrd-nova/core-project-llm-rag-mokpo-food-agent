@@ -18,7 +18,7 @@
 
 ### 3. 현재 구조
 
-Frontend
+Frontend 
 ↓
 Express Backend
 ↓
