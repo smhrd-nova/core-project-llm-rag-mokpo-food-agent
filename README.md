@@ -185,6 +185,36 @@ AI에게 물어보기
 
 > 현재 프로토타입은 **UI/UX 및 서비스 흐름 검증 단계**이며, 실제 AI·관광·지도 API 연결은 추후 진행 예정입니다.
 
+## 🌐 Web Integration
+
+기존 HTML 프로토타입을 실제 웹서비스로 확장하기 위한
+Node.js + Express 기반 Backend 구조를 구축하였다.
+
+현재는 Local 환경에서 웹서버를 실행하고,
+Frontend와 Backend 간 API 통신 구조를 검증하였다.
+
+### 현재 구조
+
+Frontend
+↓
+Node.js + Express Backend
+↓
+Demo Data
+
+### 구현 완료
+
+- Frontend ↔ Backend API 구조
+- 장소 조회 API
+- 추천 API
+- AI Chat API Interface
+- RAG API Interface
+- Local Web Server 실행
+
+> 현재 Chat / RAG API는 Demo Fallback 방식으로 동작하며,
+> 실제 LLM 및 Vector DB 연동을 위한 API Interface를 먼저 구성하였다.
+
+현재 AI/RAG는 Demo 단계이며,
+향후 실제 LLM, Tavily Search, Vector DB 및 관광 데이터를 연동할 예정이다.
 ---
 
 ## 🏗️ Tech Stack
