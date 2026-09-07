@@ -469,15 +469,32 @@ Regional AI Agent
 
 ## 📌 Project Status
 
-**Current Status: Prototype / Development**
+**Current Status: Prototype → AI System Development**
 
-현재는 서비스의 사용자 경험과 전체 서비스 흐름을 검증하기 위한 프로토타입을 구현한 단계입니다.
+현재 서비스의 UI/UX 프로토타입 구현을 완료하고
+실제 AI 추천 시스템 개발 단계로 전환하고 있습니다.
 
-앞으로 다음 단계에서는
+### Current Development
 
-**Local Data → DB → RAG → AI Agent → Web/API 연동**
+- [x] 서비스 기획
+- [x] 요구사항 정의
+- [x] UI/UX 프로토타입
+- [x] Frontend / Backend API 구조
+- [x] Local LLM 연동 환경 구축
+- [x] Gemma 4 26B 기반 LLM 테스트
+- [x] 기획발표 및 심사 피드백 반영 방향 확정
 
-순서로 실제 서비스를 구현할 예정입니다.
+### Next Development
+
+- [ ] SQL Hard Filtering
+- [ ] Local Experience Data 구축
+- [ ] Vector DB / RAG
+- [ ] Context Ranking
+- [ ] Route API
+- [ ] Course Optimization
+- [ ] LLM Recommendation
+- [ ] Cache
+- [ ] Data Validation
 
 ---
 
